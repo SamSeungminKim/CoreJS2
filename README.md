@@ -30,3 +30,9 @@
 - Array.prototype.map 함수를 직접 구현.
 - ex4_04 예제에서 인자의 순서를 바꾸었을 때 직접 구현한 map 함수를 역으로 수정하여 정상 동작 하도록 Test 해 봄.
 ```
+
+### ex4_06
+```
+[콜백 함수 내부에서의 this]
+- click 시 콘솔에 찍히는 this는 button#a PointerEvent {isTrusted: true, pointerId: 1, width: 1, height: 1, pressure: 0, …} 로 나옴
+```
