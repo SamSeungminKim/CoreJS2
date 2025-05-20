@@ -36,3 +36,10 @@
 [콜백 함수 내부에서의 this]
 - click 시 콘솔에 찍히는 this는 button#a PointerEvent {isTrusted: true, pointerId: 1, width: 1, height: 1, pressure: 0, …} 로 나옴
 ```
+
+### ex4_07
+```
+[메서드를 콜백 함수로 전달한 경우]
+- obj의 method로 호출한 경우 this는 ojb이고,
+- forEach 함수의 콜백 함수로 전달한 경우, this는 전역 객체(window)가 됨
+```
