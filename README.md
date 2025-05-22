@@ -128,5 +128,15 @@
 ### ex5_04
 ```
 [return 없이도 클로저가 발생하는 다양한 경우]
+- (1) setInterval/setTimeout
+- (2) eventListener
 
+```
+
+### ex5_04
+```
+[클로저의 메모리 관리]
+- (1) return에 의한 클로저의 메모리 해제
+- (2) setInterval에 의한 클로저의 메모리 해제
+- (3) eventListener에 의한 클로저의 메모리 해제
 ```
