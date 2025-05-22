@@ -18,3 +18,19 @@ var car = {
 };
 
 car.run();
+
+console.log(car.moved);
+console.log(car.fuel);
+console.log(car.power);
+
+car.fuel = 1000;
+console.log(car.fuel);
+car.run();
+
+car.power = 100;
+console.log(car.power);
+car.run();
+
+car.moved = 1000;
+console.log(car.moved);
+car.run();
